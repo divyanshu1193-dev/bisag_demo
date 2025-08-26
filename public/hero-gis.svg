@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#g1)"/>
+  <rect width="1440" height="900" fill="url(#grid)"/>
+  <g opacity="0.6">
+    <circle cx="240" cy="220" r="6" fill="#fff"/>
+    <circle cx="420" cy="360" r="6" fill="#fff"/>
+    <circle cx="980" cy="280" r="6" fill="#fff"/>
+    <path d="M240 220 Q 330 260 420 360 T 980 280" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6 6"/>
+  </g>
+  <text x="80" y="140" font-family="Inter, ui-sans-serif, system-ui" font-size="40" fill="#e0f2fe" font-weight="700">Government GIS Projects Portal</text>
+  <text x="80" y="185" font-family="Inter, ui-sans-serif, system-ui" font-size="20" fill="#e0f2fe" opacity="0.9">Spatial insights, analytics and departments dashboard</text>
+</svg>

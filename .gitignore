@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Env and local
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# Tooling
+coverage/
+dist/
+.vercel/
